@@ -4,6 +4,8 @@ import VideoList from './Components/VideoList';
 import VideoPlayer from './Components/VideoPlayer';
 import VideoCinema from './Components/VideoCinema';
 
+
+
 class App extends Component {
   
    constructor(props){
@@ -17,6 +19,17 @@ class App extends Component {
        }
      }
    }
+
+
+   componentWillMount(){
+
+   }
+
+
+
+
+
+
    
   render(){
     const { state } = this;
